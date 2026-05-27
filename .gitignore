@@ -1,0 +1,42 @@
+# Laravel
+/vendor
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+/build
+/dist
+.dist
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache and logs
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/testing/*
+bootstrap/cache/*
+
+# Database
+database.sqlite
+database.sqlite-journal
+
+# Testing
+.phpunit.result.cache
+
+# Vite
+.vite
